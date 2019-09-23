@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+public class CandiesDemo {
+    public static void main(String args[] ) throws Exception {
+
+    	int a,i,j,count=0;
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String inputs;
+        int noOfcandies=0;
+		try {
+			inputs = br.readLine();
+			noOfcandies = Integer.parseInt(inputs);
+		}catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		for(i=1;i<=noOfcandies;i++)
+		{
+			for(j=1;j<=(2*i)-1;j++)
+				{
+				}
+
+				while(j<=noOfcandies){
+						count++;
+						j++;
+					}
+		}
+		System.out.println(count);
+
+   }
+
+   
+}
